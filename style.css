@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Encode-sans",serif;
+    padding: opx 140px 0px 195px;
+}
+header{
+    height: 125px;
+    width: 100%;
+}
+
+header figure{
+    text-align: center;
+    height:80px;
+    width:100%;
+}
+
+header figure img{
+    width:171px;
+    height: 36px;
+    margin: 22px 0px;
+}
+
+li a{
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+main,
+section{
+    width:50%
+}
+
+aside{
+    width: 25%
+}
