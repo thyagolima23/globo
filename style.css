@@ -41,11 +41,3 @@ ul{
     justify-content: space-around;
 }
 
-main,
-section{
-    width:50%
-}
-
-aside{
-    width: 25%
-}
