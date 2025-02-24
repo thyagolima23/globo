@@ -1,113 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Encode Sans", serif;
+    
 }
 
-body{
-    font-family: "Encode-sans",serif;
-    padding: 0px 140px 0px 195px;
-}
-header{
-    height: 125px;
-    width: 100%;
-}
-
-header figure{
-    text-align: center;
-    height:80px;
-    width:100%;
-}
-
-header figure img{
-    width:171px;
-    height: 36px;
-    margin: 22px 0px;
-}
-
-li a{
-    text-align: center;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-p{
-    color: #C4170C;
-    font-family: "Encode Sans";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: -0.28px;
-}
-
-article p{
-    color: #16AE54;
-}
-
-.segundo p {
-    color: #EC8006;
-}
-
-span {
-    color: #2F3134;
-    font-family: "Encode Sans";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px; /* 135.714% */
-    letter-spacing: -0.672px;
-}
-main div span{
-    font-size: 18px;
-}
-
-h1 {
-    color: #C4160C;
-    font-family: "Encode Sans";
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 67px; /* 128.846% */
-    letter-spacing: -0.52px;
-}
-
-h5 {
-    color: #2F3134;
-    font-family: "Encode Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.9px;
-}
-
-.principal, section, .container {
-    display: flex;
-}
-main, .container {
-    width: 50%;
-
-}
-
-main hr {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 39px;
-    margin-left: 0px;
-}
-.principal hr {
-    margin-left: 35px;
-    margin-right: 35px;
-}
-
+@media (min-width: 1025px) {
+    body{
+        padding: 0px 140px 0px 195px;
+    }
+    header {
+        height: 125px;
+        width: 100%;
+    }
+    
+    header figure {
+        text-align: center;
+        height: 80px;
+        width: 100%;
+    }
+    
+    header figure img {
+        width: 171px;
+        height: 36px;
+        margin: 22px 0px;
+    }
+    
+    li a {
+        text-align: center;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    h1 {
+        color: #C4160C;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 67px;
+        letter-spacing: -0.52px;
+    }
+    
+    span {
+        color: #303134;
+        font-family: "Encode Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.18px;
+    }
+    
+    p {
+        color: #C4170C;
+        font-family: "Encode Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.28px;
+    }
+    
+    h5 {
+        color: #2F3134;
+        font-family: "Encode Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.9px;
+    }
+    
+    article aside p {
+        color: #16AE54;
+        font-family: "Encode Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.28px;
+    }
+    
+    .segundo aside p {
+        color: #EC8006;
+        font-family: "Encode Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.28px;
+    }
+    
+    figure img {
+        width: 193px;
+        height: 110px;
+        flex-shrink: 0;
+    }
+    
+    .container img {
+        width: 240px;
+        height: 128px;
+        flex-shrink: 0;
+    }
+    
+    main,
+    .container {
+        width: 50%;
+    }
+    
+    .principal,
+    section,
+    .container {
+        display: flex;
+    }
+    
+    main aside {
+        margin-right: 24px;
+    }
+    
+    
+    .principal hr {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .principal main hr {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+    
+    .container aside {
+        margin-left: 36px;
+        margin-right: 36px;
+        margin-top: 36px;
+        margin-bottom: 14px;
+    }
+    
+    
+    
+  }
+@media (max-width: 412px) {
+    
+   /* fazer o menu para celular*/
+   
+    .principal{
+        display: none;
+    }
+  }
